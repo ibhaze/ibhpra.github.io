@@ -2,21 +2,19 @@
 Personal
 ---------------------------------------------------------------------------------------------------------------------------
 
-* fix git and use it more
-*share your git link on your portfilio 
-*make it so that when you scroll on your portfolio, the logo goes from the image to the text or vice versa 
-* add work from your previous semesters into your portfolio
+ 
+ 
+ 
 * ask for feedback and feedpluse checkpoints more 
-
-*record everything you do and add them to your potfolio 
+ 
   
 *start working on indeed/linkedin profile for ui/ux design 
 
  make sure to choose a specialisation that relates to ui /ux design ask teachers , which they think would be the best 
 
- learn how to use invision 
+ 
 *do exercises on your own intuition and dont wait for the challenges that they'll give you
-* make another logo on adobe illustrator (ask chat gpt how you can make the letters of your name look like an object )
+ do eindhoven coding assignment
 
   
 
@@ -185,7 +183,7 @@ personally , i found a website (https://sharpen.design) that gives me random cha
 
 __________________________________ 
 
-
+t
 add git to portfolio
 I created a poster , 
 ADD passion project to portfolio 
