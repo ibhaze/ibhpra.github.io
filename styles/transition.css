@@ -1,0 +1,37 @@
+/* CSS styles for the HTML document */
+
+/* Apply Roboto font family to the entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling during transition */
+    background-color: #090909; /* Set background color to dark gray */
+}
+
+/* Styles for the image element */
+img {
+    position: absolute; /* Position the image absolutely */
+    left: 50%; /* Position the image at the horizontal center */
+    top: 50%; /* Position the image at the vertical center */
+    transform: translate(-50%, -50%); /* Center the image precisely */
+    transition: left 1s ease-in-out; /* Transition the left property over 1 second */
+    width: 300px; /* Set the width of the image to 300 pixels */
+}
+
+/* Styles for the paragraph element */
+p {
+    position: absolute; /* Position the text absolutely */
+    left: 50%; /* Position the text at the horizontal center */
+    bottom: -100%; /* Initially position the text outside the viewport */
+    transform: translateX(-50%); /* Center the text horizontally */
+    transition: bottom 1s ease-in-out; /* Transition the bottom property over 1 second */
+    color: white; /* Set text color to white */
+    font-size: 50px; /* Set font size to 50 pixels */
+    font-weight: 220; 
+}
+
+/* 'show' class to move the text below the image */
+.show {
+    bottom: 10%; /* Move the text below the image */
+}

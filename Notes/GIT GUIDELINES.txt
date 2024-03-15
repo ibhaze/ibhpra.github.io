@@ -1,0 +1,6 @@
+GO to git fhict
+create project and set to internal
+initialize readme
+clone the project to your computer 
+add a file
+commit the file 
