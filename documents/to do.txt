@@ -1,0 +1,159 @@
+---------------------------------------------------------------------------------------------------------------------------
+Personal
+---------------------------------------------------------------------------------------------------------------------------
+
+* fix git and use it more
+
+* watch 20 mins of js tutorial daily and when done , photoshop , adobe xd , da vinci resolve  etc 
+  
+* add work from your previous semesters into your portfolio
+* ask for feedback and feedpluse checkpoints more 
+
+*record everything you do and add them to your potfolio 
+  
+*start working on indeed/linkedin profile for ui/ux design 
+
+ make sure to choose a specialisation that relates to ui /ux design ask teachers , which they think would be the best 
+
+ learn how to use invision 
+*do exercises on your own intuition and dont wait for the challenges that they'll give you
+* make another logo on adobe illustrator 
+
+  
+
+ 
+
+
+
+
+
+
+------------------------------
+1st week ,:
+
+
+
+
+
+The first week of the 3rd semester started off with an introduction week. We formed a group, and we were given different tasks to work on. The first task was to work on a business card that would represent us. I decided to do my research on what was important for a business card and found out that, in most cases, business cards always have the name and/or logo of the company or individual. They also always have contact information (sometimes including location and social media handles). Then, I created my business card and included the core features I mentioned above. I struggled while thinking about the layout and the colors I was going to use for the design of the card at first, but I decided not to overcomplicate things and use simple colors (blue and white) and designs for the first iteration. For the second iteration of my design, I decided to go a little bit deeper and play with different colors and opacities for the main background. I ended up with black and gold in my mind because gold is often associated with luxury or elegance, and black is also associated with professionalism so I wanted that to represent me. For the front page ,I made a temporary logo with a sort of watermark of my name outside the logo.  I used the first letters of my first and last name to create a logo, and I made some sort of curved watermark of my name outside of it because I wanted to draw attention and visual interest using the layout. I decided Nova Cut was the best font for the watermark.(I used the arc plugin on figma to bend the text ) I also added the overlay box in to make it unique and not plain. For the font on the back of the card , I used Garamond because I wanted the text to look professional and not too complicated ..The gold bookmark icon on my business card serves as a visual reminder of my commitment to efficiency and organization. Just as a bookmark helps you find important information quickly in a book, I aim to streamline processes and provide easy access to valuable resources for my clients. It represents my dedication to making their experience smooth and hassle-free.
+
+On the second day of the first week, we were tasked with taking both professional and creative portraits. For the professional portraits, I decided to go with a white background after doing some research , i found out that most professional portraits were taken with a straight face and mostly on plain backgrounds . On the third day, we were tasked with finding websites with good and bad UX and improving those websites.
+
+We started the third day by playing a game called 'spaceteam'  where we had to work together in a group of 5 to prevent s spaceship from crashing...From that concept we were tassked with creating a prototype for a game .. we started up by copying the concept of the spaceteam game that allowed cooperative gameplay ...Then i created another concept trivia game called trivium layers and we made it so that multiple players can play and its a coop game thatll allow the player get help from other players if he gets stuck on a question ,  (using hint buttons , other players are allowed to help the current player with a question ), this concept was taken from the spaceteam game ...And after that we made the physical game using paper and we tested the game with other students
+On the last day , we presented our work 
+
+
+
+when  opening userinyerface , the button says no and it doesnt even work , we have to click 'here' to go to the next page even the 'click' looks like it has a link to another page but it doesnt , and the pointer doesnt show even when you hover over the 'click' button .....also i find the contrast quite confusing ..on the next page after you click the here buttom it forces you to look at a help form with no way of closing it if you dont need help ...the placeholders on the form are actual texts and not placeholders ....the constant popup telling you that time is almost up is also pretty annoying .
+
+....The main things we should watch out for from both websites are: 
+
+1. contrast 
+2. text spacing 
+3. button border
+4. font weight 
+5. 
+
+
+
+apps /websites with bad ux/ui :
+1. de afval app(trash collection app)(cluttered information and terrible ux ...also , horrible placement of the buttons )
+2. cnn website (too much information packed together )
+3. marktplaats (the seaarch bar isnt clear )
+4, PostNL (Dutch Postal Service) Track & Trace Website(users find it hard to understand te status of their parcels  )
+
+apps /websites with good ux/ui :
+1. google.com
+
+
+
+I chose to develop the afval app to make it better and the google ui to make  bad
+
+Arguments on why de afval app has a bad ui:
+1.  The spacing between the buttons aren't consistent . 
+2. everything basically looks cluttered 
+
+
+On the first day of the second week we were tasked with creating a group , and we started by finding out what the tasks and roles we could perform individually .....we also got introduced 
+to the difference between ucd and Hcd and we 
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MY PASSION PROJECT: 
+we were tasked with coming up with a passion project that would center around mainly things that we feel could be improved and I came up with different ideas 
+
+1. Community Connection Platform for Students
+
+What to Design: A platform that can improve social interaction between students and resource sharing among college students.
+
+For Whom: My ideal Target group will be university students (ages 18-25) who are looking to connect with peers within their field or outside if they want ,find mentorship, and access academic and career resources.(basically , they can connect with people who have gone through the exact pathe that theyre about to take )
+
+Why: To Address feelings of anxiety, isolation, stress, and academic pressure  commonly experienced by students. Promotes a sense of belonging, community, and collaboration, enhancing the overall university experience.
+
+Context: The platform can be accessed on smartphones or computers, serving as a virtual hub for students to connect and engage.
+
+Behaviors: Users can join interest-based groups(ie. their course group), participate in discussions and events, seek advice from other students or mentors, and access resources such as study guides, internship opportunities, and mental health support services.
+
+
+2.  Improved Trash Collection System for Helmond Residents
+
+What to Design: A redesigned and enhanced mobile application for trash collection services in Helmond, focusing on improving user experience, notification system, and overall usability.
+
+For Whom: Targeting residents of Helmond who live in houses and utilize the city's trash collection services.
+
+Why: The current app lacks user-friendliness, with issues such as unreliable notifications and poor navigation. By addressing these pain points, the redesigned app aims to streamline the trash collection process, enhance user satisfaction, and encourage more residents to participate in proper waste disposal practices.
+
+Context: The redesigned app will be exclusively accessible on mobile phones, catering to the on-the-go lifestyle of modern users.
+
+Behavior: Users should find it intuitive to:
+
+Receive Reliable Notifications: Implement a robust notification system that alerts users about upcoming collection schedules, changes in service, and important announcements. Notifications should be timely, clear, and customizable to meet individual preferences.
+
+Navigate Effortlessly: Improve the app's navigation by redesigning the interface with a user-centric approach. Utilize intuitive menus, clear labels, and visual cues to guide users through the app seamlessly. Incorporate search functionality and filters to help users quickly locate relevant information.
+
+By addressing these key areas of improvement, the redesigned trash collection app will strive to deliver a more user-friendly, efficient, and engaging experience for Helmond residents, ultimately contributing to a cleaner and more sustainable city.
+
+
+
+3. Extra-Curricular Activities for Fontys Students
+
+What to Design: A series of extra-curricular events designed to promote socialization, teamwork, and collaboration among Fontys students. These events will include sports events, escape rooms or challenge-based games, movie nights, and game competitions (PlayStation, Xbox).
+
+For Whom: Targeted towards Fontys students across all campuses and programs.
+
+Why: The current method of forcing students to create groups for socialization may not always be effective. By offering diverse and engaging extra-curricular activities, students have the opportunity to naturally socialize and form bonds while participating in activities they enjoy. This can lead to improved communication, teamwork, and collaboration skills, which are essential for academic and professional success.
+
+Context: The events can be held both on-campus and off-campus, providing flexibility and accessibility to students. On-campus events can utilize existing facilities such as sports fields, recreation centers, and auditoriums, while off-campus events can take place at external venues like escape room facilities, cinemas, or gaming centers.
+
+Behavior:
+
+Sports Events: Encourage students to participate in various sports events such as football tournaments, basketball games, or running races. Foster a spirit of friendly competition and sportsmanship while promoting physical activity and well-being among students.
+
+Escape Rooms and Challenge-based Games: Design escape room challenges or other challenge-based games where students must work together in teams to solve puzzles, overcome obstacles, and achieve objectives within a set time frame. These activities promote critical thinking, problem-solving, and teamwork skills in a fun and immersive environment.
+
+Movie Nights: Organize movie nights where students can gather to watch popular films, cult classics, or student-made movies together. Provide opportunities for discussion and
+
+
+
+
+---------------
+During the formation of the group we came up with the group name TRIPLE-s ro signify we're in the 3rd semester 
+Contract : for the design of the contract , we had 3 iterations , we started off with word and we were able to coomplete the contract but we asked for feedback and we saw that we were lacking in the design aspect and we improoved on that and we created a figma document and we started working on the second iteration of the contract , we were halfway through and a couple of our teammates thought that the design was a bit too childish so we started off on a different iteration, and this happened to be our final iteration , we feel that its a bit more mature in terms of the design and the content is a bit better ... for the second iteration we used a template  FROM :- https://www.figma.com/file/dF9pVM3BIHiuxP3jXgSNqs/Freelance-Contract-Template-(Community)?type=design&node-id=0-1&mode=design&t=3Y3bh0MVixtfxMA0-0
+
+---------------------------------------------------------------------------------------------------------
+First development assignment ,
+
+search through the awwards website and tell what you really like about it ..
+The first thing i really liked about the awwards website was the unique placement and design of the navbar , it caught my attention pretty quickly . and as for the websites within the awwards website , i feel like the first thing i liked about www.thatsbettering.com/ was the design of the question prompt about the users age ,I feel like it was a very intuitive design and the transition between the prompt and the homepage was really good ...Basically every transition within the website was cool.
+ 
+2. claytoncotterell.com -: it had a nice intro transition to the home page , but the home page was cluttered and it was weird to look at 
+
+------------------------------------------
+ 
+we then worked on our backstory as a group and we documented what our mission and vision was and after that we 
+improved our logo and gave it a bit of meaning and life . 
+
+----------------------------------------------------------------
+
+As a Nigerian, I incorporated the green and white from our flag into my design. Green symbolizes agriculture and natural resources, while white represents peace and unity. Additionally, as a football fan, I drew inspiration from the green pitch with white outlines, hence my choice of colors. for the text .
