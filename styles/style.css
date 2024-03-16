@@ -18,24 +18,24 @@
 }
 
 .home-grid-1 {
-  grid-column: 1 / span 2; /* Adjusted grid-column */
+  grid-column: 1 / span 1; /* Adjusted grid-column */
   width: 300px;
   text-align: justify;
 }
 
 
 .home-grid-2 {
-  grid-column: 3 / span 1; /* Adjusted grid-column */
+  grid-column: 2 / span 1; /* Adjusted grid-column */
  
 }
 
 .home-grid-3 {
-  grid-column: 4 / span 1; /* Adjusted grid-column */
+  grid-column: 3 / span 1; /* Adjusted grid-column */
   
 }
 
 .home-grid-4 {
-  grid-column: 3 / span 1; /* Adjusted grid-column */
+  grid-column: 4/ span 1; /* Adjusted grid-column */
 }
 
 .home-grid-2,
