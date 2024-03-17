@@ -46,7 +46,26 @@
   border-radius: 20px; /* Rounded corners */
   height: 250px;
   width: 250px;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Distribute space evenly between items */
 }
+
+/* Styling for the "see more" links */
+.home-grid-2 a,
+.home-grid-3 a,
+.home-grid-4 a {
+  text-decoration: none;
+  color: white;
+  background-color: #292929;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto; /* Push the link to the bottom */
+}
+
 
 .home-grid-1 h2 {
   font-size: 100px; /* Sets the font size of the text */
@@ -63,20 +82,7 @@
 }
 
 /* Move the "see more" link to the bottom */
-.home-grid-2 a,
-.home-grid-3 a,
-.home-grid-4 a {
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  position: relative;
-  top: 100px;
-  text-decoration: none;
-  color: white;
-  background-color: #292929;
-  height: 40px;
-  border-radius: 10px;
-}
+
 
 
 
