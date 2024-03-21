@@ -13,6 +13,82 @@ console.log(getRandomJoke.body);
   margin: 0;
   padding: 0;
 }
+ 
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Adjusted grid-template-columns */
+  gap: 2px;
+  justify-content: center; /* Align the grid to the center */
+  padding: 0 20px;
+}
+
+.home-grid p {
+  color: #a5a5a5;
+
+}
+
+.home-grid-1 {
+  grid-column: 1 / span 2; /* Adjusted grid-column */
+  width: 300px;
+  text-align: justify;
+}
+
+
+.home-grid-2 {
+  grid-column: 3 / span 1; /* Adjusted grid-column */
+ 
+}
+
+.home-grid-3 {
+  grid-column: 4 / span 1; /* Adjusted grid-column */
+  
+}
+
+.home-grid-4 {
+  grid-column: 3 / span 1; /* Adjusted grid-column */
+}
+
+.home-grid-2,
+.home-grid-3,
+.home-grid-4 {
+  background-color: #161616; /* Background color for the container */
+  padding: 20px; /* Padding around the container */
+  border-radius: 20px; /* Rounded corners */
+  height: 250px;
+  width: 250px;
+}
+
+.home-grid-1 h2 {
+  font-size: 100px; /* Sets the font size of the text */
+  font-weight: 220;
+}
+
+/* Space between heading and paragraphs */
+.home-grid-2 h3,
+.home-grid-3 h3,
+.home-grid-4 h3 {
+  margin-bottom: 20px; /* Adjust the space below the heading */
+  font-weight: 220;
+  font-size: 30px;
+}
+
+/* Move the "see more" link to the bottom */
+.home-grid-2 a,
+.home-grid-3 a,
+.home-grid-4 a {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+  top: 100px;
+  text-decoration: none;
+  color: white;
+  background-color: #292929;
+  height: 40px;
+  border-radius: 10px;
+}
+
+
 
 /* Styling for the body */
 body {
@@ -21,6 +97,7 @@ body {
   font-family: 'Roboto', sans-serif; /* Applies the Roboto font family to the body text */
   color: white; /* Sets the color of the body text */
   overflow-y: scroll; /* Ensures vertical scrollbar is always visible */
+  scroll-behavior:smooth;
 }
 
 /* Hides the scrollbar for WebKit browsers (Chrome, Safari, etc.) */
@@ -35,7 +112,7 @@ body {
 
 /* Styling for the logo */
 .logo {
-  width: 80px; /* Sets the width of the logo */
+  width: 60px; /* Sets the width of the logo */
 }
 
 /* Styling for text with a stroke effect */
@@ -93,11 +170,58 @@ main {
   margin-top: 150px; /* Adds margin space on top of the main content */
 }
 
+
+.pageheader h1{
+  text-align:center;
+  margin-bottom:110px;
+  font-size: 120px; /* Sets the font size of the heading */
+  font-weight: 220; 
+}
+.pageheader{
+  padding: 0 20px;
+}
+.allgrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+  justify-content: center; 
+  text-align: justify;
+  padding: 0 70px;
+  grid-row-gap: 120px;
+  
+}
+.allgrid-1{
+  grid-row: span 2;
+}
+.allgrid-2{
+  grid-row: span 2;
+}
+
+.allgrid h1{
+  align-items: center;
+  text-align: center;
+  font-size: 55px;
+  padding-bottom: 40px;
+}
+.allgrid p{
+  margin-bottom: 40px;
+}
+.gridimgcontainer{
+  grid-column: 2; /* Sets the image container to span the second grid column */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.gridimg{
+  max-width: 100%;
+  max-height: 100%;
+}
+ 
 /* Styling for the container */
 .container {
   display: grid; /* Uses CSS Grid for layout */
-  grid-template-columns: 1fr auto 1fr; /* Defines three columns with equal widths */
-  grid-gap: 20px; /* Adds gap between grid items */
+  grid-template-columns: repeat(3, 1fr); /* Defines three columns with equal widths */
+  grid-gap: 10px; /* Adds gap between grid items */
   justify-items: center; /* Aligns items in the center horizontally */
   align-items: start; /* Aligns items at the start of the container vertically */
   font-weight: 20; /* Sets the font weight (likely an error, should be a numeric value) */
@@ -119,7 +243,8 @@ main {
 /* Styling for both left and right columns */
 .left-column,
 .right-column {
-  max-width: 300px; /* Sets the maximum width for both columns */
+  max-width: 400px; /* Sets the maximum width for both columns */
+  text-align: justify;
 }
 
 /* Styling for the image container */
@@ -161,6 +286,13 @@ footer {
 footer a {
   display: block; /* Displays links as block elements */
 }
+a {
+  cursor: url('emoji.svg') ,pointer;/*This changes the shape of the cursor whenever the user hovers over a link */
+}
+/* Existing CSS styles remain unchanged */
+
+/* Media queries and other existing styles remain unchanged */
+
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
@@ -187,12 +319,23 @@ footer a {
     font-size: 120px; /* Decreases font size of the ABOUT heading */
     bottom: -120px; /* Adjusts position of the heading */
   }
-
+  p{
+    font-size: 10px;
+  }
   /* Margin adjustment for the main content */
   main {
     margin-top: 370px; /* Adjusts margin space on top of the main content */
+    
   }
+ .centeredimg{
+  width: 300px;
+ }
+ .left-column,
+.right-column {
+  max-width: 400px; /* Sets the maximum width for both columns */
 }
+}
+
 
 /* Media query for larger screens */
 @media only screen and (min-width: 1200px) {
