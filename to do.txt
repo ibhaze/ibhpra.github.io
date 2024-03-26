@@ -13,7 +13,7 @@ Personal
  make sure to choose a specialisation that relates to ui /ux design ask teachers , which they think would be the best 
 
  
-*do exercises on your own intuition and dont wait for the challenges that they'll give you
+*do exercises and tutorials  on your own intuition and dont wait for the challenges that they'll give you
  do eindhoven coding assignment
 
   
@@ -135,58 +135,15 @@ Movie Nights: Organize movie nights where students can gather to watch popular f
 
 
 ---------------
-During the formation of the group we came up with the group name TRIPLE-s to signify we're in the 3rd semester and also to signify that we do STRATEGIC RESEARCH 
-SWIFT DEVELOPMENT 
-STYLISH DESIGN  
-Contract : for the design of the contract , we had 3 iterations , we started off with word and we were able to coomplete the contract but we asked for feedback and we saw that we were lacking in the design aspect and we improoved on that and we created a figma document and we started working on the second iteration of the contract , we were halfway through and a couple of our teammates thought that the design was a bit too childish so we started off on a different iteration, and this happened to be our final iteration , we feel that its a bit more mature in terms of the design and the content is a bit better ... for the second iteration we used a template  FROM :- https://www.figma.com/file/dF9pVM3BIHiuxP3jXgSNqs/Freelance-Contract-Template-(Community)?type=design&node-id=0-1&mode=design&t=3Y3bh0MVixtfxMA0-0
 
----------------------------------------------------------------------------------------------------------
-First development assignment ,
 
-search through the awwards website and tell what you really like about it ..
-The first thing i really liked about the awwards website was the unique placement and design of the navbar , it caught my attention pretty quickly . and as for the websites within the awwards website , i feel like the first thing i liked about www.thatsbettering.com/ was the design of the question prompt about the users age ,I feel like it was a very intuitive design and the transition between the prompt and the homepage was really good ...Basically every transition within the website was cool.
+
  
-2. claytoncotterell.com -: it had a nice intro transition to the home page , but the home page was cluttered and it was weird to look at 
-
-------------------------------------------
- 
-we then worked on our backstory as a group and we documented what our mission and vision was and after that we 
-improved our logo and gave it a bit of meaning and life . 
-
-
-------------------------------------------------------------------------------------------------------
-we learnt about how to create our branding , (colours , how we want to present stuff ) #
-I created the mission and vision statement for our group based on what we agreed on 
-----------------------------------------------------------------
 
 
 
 
-------------------------------------------------------------------------------------------------------
-
-
-------
-I started working on the prototype for my website and in the first feedback session from the teacher was :,  
-The layout is good, but will it be flexible enough to accommodate larger texts?
-The texts on the navbar are not aligned properly, but that should be changed.
-The tiny icons on the bottom are also good. 
-
-After the feedback from the teacher , i Created an action plan and i made these changes :
-
-Ensured the layout can adapt to accommodate larger texts by testing different font sizes and weights.
-Adjuste the alignment of the texts on the navbar to make them more visually appealing and consistent.
-Maintained the presence of the tiny icons on the bottom as they are positively received.
-
------
---------------------
 personally , i found a website (https://sharpen.design) that gives me random challenges to work on and i used it to challenge myself in the ui/ux part you can find the document here 
-
-__________________________________ 
-
-t
-add git to portfolio
-I created a poster , 
-ADD passion project to portfolio 
 	-----------
 this is an example of how i showed learning outcome ....
 learning outcome 1: logo, research,prototypes
@@ -203,3 +160,7 @@ project page
 exercises page
 personal project page
 passiob project 
+
+
+
+feedback on portifolio : good representation of the learning outcomes ,but maybe make it more visual 
