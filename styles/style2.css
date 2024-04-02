@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box; /* Sets box-sizing property for all elements */
+    margin: 0; /* Resets margin */
+    padding: 0; /* Resets padding */
+    font-family: Arial, Helvetica, sans-serif; /* Sets default font family */
+}
+.rotated-text { 
+    width: 170px; /* Sets width of rotated text */
+    transform: rotate(-10deg); /* Rotates the text */
+    display: inline-block; /* Makes the text display inline */
+    position: absolute; /* Sets position to absolute */
+    right: 0; /* Positions the text to the right */
+    top: 45%; /* Positions the text vertically */
+}
+
+.wrapper {
+    width: 100%; /* Sets width to 100% */
+    height: 100vh; /* Sets height to full viewport height */
+    display: flex; /* Displays as flex container */
+    align-items: center; /* Aligns items vertically center */
+    justify-content: center; /* Centers items horizontally */
+    margin-top: -220px; /* Adjusts top margin */
+}
+
+.container2{
+    height: 400px; /* Sets height of container */
+    display: flex; /* Displays as flex container */
+    flex-wrap: nowrap; /* Prevents wrapping */
+    justify-content: start; /* Aligns items to start */
+}
+
+.card {
+    width: 80px; /* Sets width of card */
+    border-radius: .75rem; /* Sets border radius */
+    background-size: cover; /* Sets background size */
+    cursor: pointer; /* Sets cursor to pointer */
+    overflow: hidden; /* Hides overflow content */
+    border-radius: 2rem; /* Sets border radius */
+    margin: 0 10px; /* Sets margin */
+    display: flex; /* Displays as flex container */
+    align-items: flex-end; /* Aligns items to bottom */
+    transition: .6s cubic-bezier(.28,-0.03,0,.99); /* Sets transition */
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8); /* Sets box shadow */
+}
+
+.card > .row {
+    color: white; /* Sets text color */
+    display: flex; /* Displays as flex container */
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+.card > .row > .icon {
+    background: #223; /* Sets background color */
+    color: white; /* Sets text color */
+    border-radius: 50%; /* Sets border radius */
+    width: 50px; /* Sets width */
+    display: flex; /* Displays as flex container */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 15px; /* Sets margin */
+}
+
+.card > .row > .description {
+    display: flex; /* Displays as flex container */
+    justify-content: center; /* Centers horizontally */
+    flex-direction: column; /* Sets flex direction */
+    overflow: hidden; /* Hides overflow content */
+    height: 80px; /* Sets height */
+    width: 520px; /* Sets width */
+    opacity: 0; /* Sets opacity */
+    transform: translateY(30px); /* Transforms */
+    transition-delay: .3s; /* Sets transition delay */
+    transition: all .3s ease; /* Sets transition */
+}
+
+.description p {
+    color: #b0b0ba; /* Sets text color */
+    padding-top: 5px; /* Sets padding */
+}
+
+.description h4 {
+    text-transform: uppercase; /* Transforms text to uppercase */
+}
+
+input {
+    display: none; /* Hides input */
+}
+
+input:checked + label {
+    width: 600px; /* Changes width when input is checked */
+}
+
+input:checked + label .description {
+    opacity: 1 !important; /* Changes opacity when input is checked */
+    transform: translateY(0) !important; /* Transforms when input is checked */
+}
+
+.card[for="c1"] {
+    background-image: url('./img1.jpeg'); /* Sets background image for card 1 */
+}
+.card[for="c2"] {
+    background-image: url('./img2.jpeg'); /* Sets background image for card 2 */
+}
+.card[for="c3"] {
+    background-image: url('./img3.jpeg'); /* Sets background image for card 3 */
+}
+.card[for="c4"] {
+    background-image: url('./img4.jpeg'); /* Sets background image for card 4 */
+}

@@ -5,7 +5,7 @@
     <title>IBHAZE PRAISE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
-
+    <link rel="stylesheet" href="styles/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -32,32 +32,51 @@
 
     </header>
     <main>
-        <div class="home-grid">
-            <div class="home-grid-1">
-                <h2>MY WORK</h2>
-                <p>In this part of my portfolio , you will find things I worked on in the third semester of media design
-                </p>
+        <div class="pageheader">
+            <h1>MY PORTFOLIO</h1> <!-- Displays the title "MY PORTFOLIO" -->
+        </div>
+        <p class="rotated-text">In this part of my portfolio, you will find things I worked on in the third semester of
+            media design</p> <!-- Displays a rotated text with portfolio description -->
+
+        <div class="wrapper"> <!-- A wrapper for a section -->
+            <!-- This code snippet was taken from: https://youtu.be/45mnmy2JUl0?si=c89q37HehnPWsbOm -->
+            <div class="container">
+                <!-- A container for radio buttons -->
+                <input type="radio" name="slide" id="c1" checked> <!-- Radio button 1 with id "c1" -->
+                <label for="c1" class="card"> <!-- Label for radio button 1 -->
+                    <div class="row"> <!-- A row container -->
+                        <div class="icon">1</div> <!-- Icon for the card -->
+                        <div class="description"> <!-- Description for the card -->
+                            <h4>Personal Projects</h4> <!-- Heading for personal projects -->
+                            <p>You will find my work on personal content <a href="personal.html">here</a></p>
+                            <!-- Description of personal projects -->
+                        </div>
+                    </div>
+                </label>
+
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>Group Work</h4>
+                            <p>You will find my work within my group <a href="groupproj.html">here </a></p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Exercises</h4>
+                            <p>You will find my work on exercises given by my teachers <a href="exercises.html">here
+                                </a> </p>
+                        </div>
+                    </div>
+                </label>
+
             </div>
-
-            <div class="home-grid-2">
-                <h3>Personal Projects</h3>
-                <p>In this page , you will find my work mostly on things outside the required content </p>
-                <a href="personal.html">see more</a>
-            </div>
-            <div class="home-grid-3">
-                <h3>Group Projects</h3>
-                <p>In this page , you will find my work within my group </p>
-                <a href="groupproj.html">see more</a>
-            </div>
-            <div class="home-grid-4">
-                <h3>Exercises </h3>
-                <p>In this page , you will find my work on exercises given  by my teachers </p>
-
-                <a href="exercises.html">see more</a>
-            </div>
-
-
-
         </div>
 
 
