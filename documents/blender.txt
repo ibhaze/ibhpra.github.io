@@ -1,0 +1,5 @@
+r- rotate
+aa- deselect
+a-select
+g-movement 
+s-scale

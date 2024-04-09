@@ -163,4 +163,12 @@ passiob project
 
 
 
-feedback on portifolio : good representation of the learning outcomes ,but maybe make it more visual 
+feedback on portifolio : good representation of the learning outcomes ,b
+ut maybe make it more visual 
+
+-----------------
+ADD TO PORTFOLIO:
+-front end assignment
+-react js , firebase stuff 
+
+-The stuff you did with papers (lotus stuff)
