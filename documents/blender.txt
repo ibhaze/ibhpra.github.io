@@ -3,3 +3,16 @@ aa- deselect
 a-select
 g-movement 
 s-scale
+mmb+shift 
+b- box select tool
+c-circle select tool 
+
+z(display layer )
+shift d -duplicate 
+i -create an objcect or face within a face (press i twice or once to create something )
+
+shift c  - makes the cursor center 
+.- brings up a menu 
+
+f- fill 
+shift+ RMB- multi-select 

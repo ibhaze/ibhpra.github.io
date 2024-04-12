@@ -169,6 +169,7 @@ ut maybe make it more visual
 -----------------
 ADD TO PORTFOLIO:
 -front end assignment
--react js , firebase stuff 
-
+-react js , firebase stuff (add the code and the comments to the readme file )
+-change concept document on your portfolio 
 -The stuff you did with papers (lotus stuff)
+if possible the blender exercises

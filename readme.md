@@ -8,6 +8,7 @@ const getRandomJoke = oneLinerJoke.getRandomJoke();
 console.log(getRandomJoke.body);
 
 ## MY CSS /* Resetting default margin and padding for all elements */
+* {/* Resetting default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
@@ -45,105 +46,6 @@ console.log(getRandomJoke.body);
 .outcome-container:hover .overlay {
   opacity: 1;
 }
-
-
-
-.home-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* Adjusted grid-template-columns */
-  gap: 2px;
-  justify-content: center;
-  /* Align the grid to the center */
-  padding: 0 20px;
-}
-
-.home-grid p {
-  color: #a5a5a5;
-
-}
-
-.home-grid-1 {
-  grid-column: 1 / span 1;
-  /* Adjusted grid-column */
-  width: 300px;
-  text-align: justify;
-}
-
-
-.home-grid-2 {
-  grid-column: 2 / span 1;
-  /* Adjusted grid-column */
-
-}
-
-.home-grid-3 {
-  grid-column: 3 / span 1;
-  /* Adjusted grid-column */
-
-}
-
-.home-grid-4 {
-  grid-column: 4/ span 1;
-  /* Adjusted grid-column */
-}
-
-.home-grid-2,
-.home-grid-3,
-.home-grid-4 {
-  background-color: #161616;
-  /* Background color for the container */
-  padding: 20px;
-  /* Padding around the container */
-  border-radius: 20px;
-  /* Rounded corners */
-  height: 250px;
-  width: 250px;
-  display: flex;
-  /* Use flexbox */
-  flex-direction: column;
-  /* Stack items vertically */
-  justify-content: space-between;
-  /* Distribute space evenly between items */
-}
-
-/* Styling for the "see more" links */
-.home-grid-2 a,
-.home-grid-3 a,
-.home-grid-4 a {
-  text-decoration: none;
-  color: white;
-  background-color: #292929;
-  height: 40px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: auto;
-  /* Push the link to the bottom */
-}
-
-
-.home-grid-1 h2 {
-  font-size: 100px;
-  /* Sets the font size of the text */
-  font-weight: 220;
-}
-
-/* Space between heading and paragraphs */
-.home-grid-2 h3,
-.home-grid-3 h3,
-.home-grid-4 h3 {
-  margin-bottom: 20px;
-  /* Adjust the space below the heading */
-  font-weight: 220;
-  font-size: 30px;
-}
-
-/* Move the "see more" link to the bottom */
-
-
-
 
 /* Styling for the body */
 body {
@@ -491,3 +393,113 @@ a {
     /* Displays three columns in the container */
   }
 }
+## Second css file 
+* {
+    box-sizing: border-box; /* Sets box-sizing property for all elements */
+    margin: 0; /* Resets margin */
+    padding: 0; /* Resets padding */
+    font-family: Arial, Helvetica, sans-serif; /* Sets default font family */
+}
+.rotated-text { 
+    width: 170px; /* Sets width of rotated text */
+    transform: rotate(-10deg); /* Rotates the text */
+    display: inline-block; /* Makes the text display inline */
+    position: absolute; /* Sets position to absolute */
+    right: 0; /* Positions the text to the right */
+    top: 45%; /* Positions the text vertically */
+}
+
+.wrapper {
+    width: 100%; /* Sets width to 100% */
+    height: 100vh; /* Sets height to full viewport height */
+    display: flex; /* Displays as flex container */
+    align-items: center; /* Aligns items vertically center */
+    justify-content: center; /* Centers items horizontally */
+    margin-top: -220px; /* Adjusts top margin */
+}
+
+.container2{
+    height: 400px; /* Sets height of container */
+    display: flex; /* Displays as flex container */
+    flex-wrap: nowrap; /* Prevents wrapping */
+    justify-content: start; /* Aligns items to start */
+}
+
+.card {
+    width: 80px; /* Sets width of card */
+    border-radius: .75rem; /* Sets border radius */
+    background-size: cover; /* Sets background size */
+    cursor: pointer; /* Sets cursor to pointer */
+    overflow: hidden; /* Hides overflow content */
+    border-radius: 2rem; /* Sets border radius */
+    margin: 0 10px; /* Sets margin */
+    display: flex; /* Displays as flex container */
+    align-items: flex-end; /* Aligns items to bottom */
+    transition: .6s cubic-bezier(.28,-0.03,0,.99); /* Sets transition */
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8); /* Sets box shadow */
+}
+
+.card > .row {
+    color: white; /* Sets text color */
+    display: flex; /* Displays as flex container */
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+.card > .row > .icon {
+    background: #223; /* Sets background color */
+    color: white; /* Sets text color */
+    border-radius: 50%; /* Sets border radius */
+    width: 50px; /* Sets width */
+    display: flex; /* Displays as flex container */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 15px; /* Sets margin */
+}
+
+.card > .row > .description {
+    display: flex; /* Displays as flex container */
+    justify-content: center; /* Centers horizontally */
+    flex-direction: column; /* Sets flex direction */
+    overflow: hidden; /* Hides overflow content */
+    height: 80px; /* Sets height */
+    width: 520px; /* Sets width */
+    opacity: 0; /* Sets opacity */
+    transform: translateY(30px); /* Transforms */
+    transition-delay: .3s; /* Sets transition delay */
+    transition: all .3s ease; /* Sets transition */
+}
+
+.description p {
+    color: #b0b0ba; /* Sets text color */
+    padding-top: 5px; /* Sets padding */
+}
+
+.description h4 {
+    text-transform: uppercase; /* Transforms text to uppercase */
+}
+
+input {
+    display: none; /* Hides input */
+}
+
+input:checked + label {
+    width: 600px; /* Changes width when input is checked */
+}
+
+input:checked + label .description {
+    opacity: 1 !important; /* Changes opacity when input is checked */
+    transform: translateY(0) !important; /* Transforms when input is checked */
+}
+
+.card[for="c1"] {
+    background-image: url('./img1.jpeg'); /* Sets background image for card 1 */
+}
+.card[for="c2"] {
+    background-image: url('./img2.jpeg'); /* Sets background image for card 2 */
+}
+.card[for="c3"] {
+    background-image: url('./img3.jpeg'); /* Sets background image for card 3 */
+}
+.card[for="c4"] {
+    background-image: url('./img4.jpeg'); /* Sets background image for card 4 */
+} 
