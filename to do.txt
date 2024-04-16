@@ -173,3 +173,4 @@ ADD TO PORTFOLIO:
 -change concept document on your portfolio 
 -The stuff you did with papers (lotus stuff)
 if possible the blender exercises
+-daily ui challenges  
