@@ -170,7 +170,17 @@ ut maybe make it more visual
 ADD TO PORTFOLIO:
 -front end assignment
 -react js , firebase stuff (add the code and the comments to the readme file )
--change concept document on your portfolio 
+
 -The stuff you did with papers (lotus stuff)
 if possible the blender exercises
--daily ui challenges  
+
+-improve design of website 
+-work on more blender exercises 
+
+
+----------------------
+
+FEEDBACK SESSION 
+WHAT I THINK ABOUT MY WEBSITE AND WHAT IT ADRESSES 
+
+My about page gives a general overview of what my strengths and weaknesses are and basically adresses learning outcome 5 although thats not the only page that adresses that  
