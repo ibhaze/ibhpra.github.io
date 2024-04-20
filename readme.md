@@ -503,3 +503,134 @@ input:checked + label .description {
 .card[for="c4"] {
     background-image: url('./img4.jpeg'); /* Sets background image for card 4 */
 } 
+## React documents
+### Addpost
+import React, { useState } from 'react';
+import firestore from './firebase-config'; // Update import statement
+
+import { collection, addDoc } from 'firebase/firestore';
+const AddPost = () => {
+    const [title, setTitle] = useState('');
+    const [content, setContent] = useState('');
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (!title || !content) {
+            alert("Please add a title and content for your blog post.");
+            return;
+        }
+        await addDoc(collection(firestore, 'posts'), {
+            title,
+            content,
+            createdAt: new Date(),
+        });
+        setTitle('');
+        setContent('');
+    };
+    return (
+        <form onSubmit={handleSubmit}>
+            <input
+                type="text"
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+                placeholder="Post Title"
+            />
+            <textarea
+                value={content}
+                onChange={(e) => setContent(e.target.value)}
+                placeholder="Post Content"
+            />
+            <button type="submit">Add Post</button>
+        </form>
+    );
+};
+export default AddPost;
+### App
+import logo from './logo.svg';
+import './App.css';
+import React from 'react';
+import Posts from './Posts';
+import AddPost from './AddPost';
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <div>
+          <h1>Simple Blog App</h1>
+          <AddPost />
+          <Posts />
+        </div>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+### firebase config js
+/* global firestore */
+// Import the functions you need from the SDKs you need
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBKmIYpGsECuv6dhH95MfTXicBGHCuToOc",
+  authDomain: "new-project-5f89b.firebaseapp.com",
+  projectId: "new-project-5f89b",
+  storageBucket: "new-project-5f89b.appspot.com",
+  messagingSenderId: "839417887319",
+  appId: "1:839417887319:web:19adbe9618d17da53f0112",
+  measurementId: "G-QQW70GMPFQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const firestore = getFirestore(app);
+
+export default firestore;
+### Posts js
+import React, { useEffect, useState } from 'react';
+import firestore from './firebase-config'; // Update import statement
+
+import { collection, query, orderBy, onSnapshot } from 'firebase/firestore';
+const Posts = () => {
+    const [posts, setPosts] = useState([]);
+    useEffect(() => {
+        const q = query(collection(firestore, 'posts'), orderBy('createdAt', 'desc'));
+        const unsubscribe = onSnapshot(q, (snapshot) => {
+            const postsArray = snapshot.docs.map(doc => ({
+                id: doc.id,
+                ...doc.data(),
+            }));
+            setPosts(postsArray);
+        });
+        return () => unsubscribe();
+    }, []);
+    return (
+        <div>
+            {posts.map((post) => (
+                <div key={post.id}>
+                    <h2>{post.title}</h2>
+                    <p>{post.content}</p>
+                </div>
+            ))}
+        </div>
+    );
+};
+export default Posts;
+
+these are the files i made changes to for the react js tutorial

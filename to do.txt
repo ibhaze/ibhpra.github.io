@@ -190,6 +190,7 @@ adresses learning outcome 5 although thats not the only page that adresses that
 and the personal projects page shows the work i did on my own 
 while the group project page shows the work i did with my group i regards to the project.
 
+I addressed learning outcome two by commenting my code and making use of gitlab both for my portfolio and for the group project .
 PERSONAL PROJECTS
 we can start with the personal projects page where i display several learning outcomes but i display the 
 5th learning outcmome here because this page is more about my personal development and things i did to help that ...
@@ -198,9 +199,34 @@ in the personal project page , i worked with several tutorials including blender
 I also took a short course at accenture to help with my research and UX skills ....I also made use of the audio lab earlier in the semester 
 to conduct a short interview with danya to familiarize myself with audio recording and the audio lab ....I also registered to a website 
 called daily ui ,...this website sends me daily ui challenges to work on and i set a 30 minute deadline to work on each challenge daily
- it helps me develop my design skills .....
+ it helps me develop my design skills and that shows my proficiency in LO1 because i translated the concepts i was given into media products 
+ , Lo5 because of my ability to do things that helped me grow personally and professionally .....
 
 
 EXERCISE PAGE :
 
-In this page 
+In this page i show my proficiency in multiple learning outcomes
+
+-the good bad ui/ux exercise is the exercise we were given in the first week of this semester to create a good ui out of a bad ui .
+..i changed the ui of the afval aopp and made it better demonstrating my ability to critically analyze and evaluate design choices (LO1). Through this exercise, I showcased my understanding of UX principles and my capacity to apply them in practical scenarios
+
+-  For the branding exercise to create an idea /brand  in pennys class , me and danya created a brand based on a word we were given (food) and so we created a brand called dicount digest 
+that will be a delivery service app that will create options from different stores for the customers to order from and provide them with access to the cheapest stuff from the comfort 
+of their homes in this exercise , i display my proficiency in LO3 because we had a feedbcak session after which we made changes to our concept , we also showed professionalism (LO4) by considering practical challenges and checking out  different business models like picnic , thuizbezorgd.
+
+
+GROUP PROJECTS :
+
+In this page ...I explain the process of our group project and how it went , from the creation of our group ,
+ how we came up with the name , logo ,the agreements we made and basically the creation of our brand 
+
+for the project itself , we were given a client (LIVEWALL)
+and their representative told us about the company and how they were interested in knowing just how much we could do with Ai , they then 
+gave us a task , to work on a nutrition plan that utilises AI to generate personalized nutrition plans ...
+We started up by using the double diamonds primary research method and we started brainstorming and 
+finding evererything about nutrition plans and after that , I created some survey questions alongside danya and we asked for feedback with the teachers and 
+they gave us some feedback and told us to work on an introductory section that will give the users context and after multiple iterations and feedbcak sessions 
+, we created a concept document and for the document , I created the POV /HMW part and i created multiple scenarios and asked for feedback ..
+ I Also created interview questions , since we wanted to have more quality answers ....after that I created my version of a low-mid fidelity prototype for the nutrition 
+plan ^..I displayed L04 by my use of the double diamond method and the endless research  i also had a lot of iterations and feedback sessions and that showed my proficiency in LO3 :::
+
