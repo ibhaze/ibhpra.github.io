@@ -24,25 +24,36 @@
 
         </nav>
         
-
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              // Get all elements with the fade-in-text class
+              var fadeElements = document.querySelectorAll(".fade-in-text");
+          
+              // Loop through each element
+              fadeElements.forEach(function(element) {
+                // Add the visible class after a delay
+                setTimeout(function() {
+                  element.classList.add("visible");
+                }, 300); // Adjust the delay time as needed
+              });
+            });
+          </script>
+          
     </header>
     <main>
         <div class="container">
             <div class="left-column">       
-                <p>
-                    Born in Stolberg, Germany, and raised in Lagos, I've been shaped by two
-                    distinct cultures. Growing up amidst the vibrant energy of Lagos sparked my
-                    passion for exploring different cultures. Now, I'm on a mission to bridge 
-                    cultural divides and celebrate diversity through my work. Join me as we 
-                    journey together, embracing the richness of our shared humanity.
-                </p>
+                <p class="fade-in-text">
+                    Born in Stolberg, Germany, and raised in Lagos, I've been shaped by two distinct cultures. Growing up amidst the vibrant energy of Lagos sparked my passion for exploring different cultures. Now, I'm on a mission to bridge cultural divides and celebrate diversity through my work. Join me as we journey together, embracing the richness of our shared humanity.
+                  </p>
+                  
             </div>
             <div class="image-container">
                 <img src="media/portrait.jpg" class="centeredimg">
-                <h1 class="about-heading">About</h1>  
+                <h1 class="about-heading" >About</h1>  
             </div>
             <div class="right-column">
-                <p>My strengths lie more in research than in design but since the beginning of the semestser , I have been able to build my design skills through research and I feel a bit more confident in my design skills than I was in the last semester  </p>
+                <p class="fade-in-text">My strengths lie more in research than in design but since the beginning of the semestser , I have been able to build my design skills through research and I feel a bit more confident in my design skills than I was in the last semester  </p>
             </div>
         </div>
     </main>

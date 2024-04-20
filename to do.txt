@@ -183,4 +183,24 @@ if possible the blender exercises
 FEEDBACK SESSION 
 WHAT I THINK ABOUT MY WEBSITE AND WHAT IT ADRESSES 
 
-My about page gives a general overview of what my strengths and weaknesses are and basically adresses learning outcome 5 although thats not the only page that adresses that  
+-My about page gives a general overview of what my strengths and weaknesses are and basically 
+adresses learning outcome 5 although thats not the only page that adresses that  
+..
+-My Exercise page shows the work the teachers gave us to work on
+and the personal projects page shows the work i did on my own 
+while the group project page shows the work i did with my group i regards to the project.
+
+PERSONAL PROJECTS
+we can start with the personal projects page where i display several learning outcomes but i display the 
+5th learning outcmome here because this page is more about my personal development and things i did to help that ...
+
+in the personal project page , i worked with several tutorials including blender , and a couple of figma tutorials 
+I also took a short course at accenture to help with my research and UX skills ....I also made use of the audio lab earlier in the semester 
+to conduct a short interview with danya to familiarize myself with audio recording and the audio lab ....I also registered to a website 
+called daily ui ,...this website sends me daily ui challenges to work on and i set a 30 minute deadline to work on each challenge daily
+ it helps me develop my design skills .....
+
+
+EXERCISE PAGE :
+
+In this page 
