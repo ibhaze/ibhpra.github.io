@@ -35,3 +35,30 @@ p {
 .show {
     bottom: 10%; /* Move the text below the image */
 }
+
+/* Container to hold both buttons */
+.button-container {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}
+
+/* Styles for the button */
+button {
+    
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 20px; /* Set font size to 20 pixels */
+    background-color: #FFA500; /* Set button background color to orange */
+    color: white; /* Set button text color to white */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    border-radius: 10px;
+    margin-right: 10px; /* Add margin to separate buttons */
+}
+
+/* Hover Effect */
+button:hover {
+    background-color: #FFD700; /* Lighter shade of orange on hover */
+}

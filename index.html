@@ -13,16 +13,23 @@
             
     <img src="media/alternate logo.png" alt="Image" >
     <p >WELCOME TO MY PORTFOLIO</p>
-       
+    <div class="button-container">
+        <button id="nextButton">Enter Portfolio</button>
+        <button id="pdfButton">Portfolio Abstract</button>
+    </div> <!-- Button container to hold both buttons -->
+
     <script>
-           setTimeout(function(){
+        setTimeout(function(){
             document.querySelector('img').classList.add('show');
             document.querySelector('p').classList.add('show');
-        }, 100); // Add 'show' class after 100 milliseconds to trigger the transition
- 
-        setTimeout(function(){
-            window.location.href = "homepage.html";
-        }, 5000); // Redirect after 7 seconds
+        }, 100); 
+        document.getElementById('nextButton').addEventListener('click', function() {
+            window.location.href = "homepage.html"; // Redirect to the next page
+        });
+
+        document.getElementById('pdfButton').addEventListener('click', function() {
+            window.open('documents/Portfolio Abstract.pdf', '_blank'); // Open the PDF file in a new tab
+        });
     </script>
 </body>
 </html>

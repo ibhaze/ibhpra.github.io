@@ -49,6 +49,7 @@
     overflow-y: scroll;
     /* Ensures vertical scrollbar is always visible */
     scroll-behavior: smooth;
+    scrollbar-width: none;
   }
 
   /* Hides the scrollbar for WebKit browsers (Chrome, Safari, etc.) */
@@ -56,10 +57,6 @@
     display: none;
   }
 
-  /* Hides scrollbar for Firefox */
-  body {
-    scrollbar-width: none;
-  }
 
   /* Styling for the logo */
   .logo {
@@ -279,8 +276,8 @@
     /* Centers the heading horizontally */
     font-size: 220px;
     /* Sets the font size of the heading */
-    font-weight: 220;
-    /* Sets the font weight (likely an error, should be a numeric value) */
+    font-weight: 20;
+    /* Sets the font weight  */
     z-index: -1;
     /* Sets the stacking order of the heading */
   }
@@ -323,6 +320,21 @@
   opacity: 1;
   /* Show the text with full opacity */
 }
+/* Link Styles */
+a {
+  color: #FFA500; /* Orange */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover Effect */
+a:hover {
+  color: #FFD700; /* Lighter shade of orange on hover */
+  transition: color 0.3s ease; /* Smooth color transition when the user hovers over a link*/
+}
+
+
+
 
 
 
@@ -359,6 +371,7 @@
       /* Decreases font size of the ABOUT heading */
       bottom: -120px;
       /* Adjusts position of the heading */
+        
     }
 
     p {
