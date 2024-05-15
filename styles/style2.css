@@ -32,7 +32,7 @@
 }
 
 .rotated-text {
-  width: 170px; /* Sets width of rotated text */
+  width: 149px; /* Sets width of rotated text */
   transform: rotate(-10deg); /* Rotates the text */
   display: inline-block; /* Makes the text display inline */
   position: absolute; /* Sets position to absolute */

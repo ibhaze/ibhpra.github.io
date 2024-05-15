@@ -236,7 +236,7 @@
     margin-top: 40px;
     /* Adds margin space on top of the column */
     text-align: left;
-    /* Aligns text to the left within the column */
+    /* Aligns text to the left within the column */ 
   }
 
   /* Styling for both left and right columns */
@@ -406,3 +406,41 @@ a:hover {
       /* Displays three columns in the container */
     }
   }
+/* Add this CSS to your existing style.css file or create a new one */
+
+.icon-explanation {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 0 20px;
+  width: 400px;
+}
+
+.icon-explanation h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.icon-explanation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon-explanation li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon-explanation li .icon {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.icon-explanation li p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
