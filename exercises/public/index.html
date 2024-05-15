@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Book Collection API</title>
+    <style>
+        body {
+            background-color: #090909;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1, h2 {
+            color: #ffffff;
+            text-align: center;
+        }
+
+        form {
+            background-color: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        label {
+            color: #ffffff;
+            margin-bottom: 10px;
+            display: block;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="submit"] {
+            width: 100px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #FFA500;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #FFA500;
+        }
+       
+        
+        /* Style for the back button */
+        #backButton {
+            padding: 10px;
+            background-color: #FFA500;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="backButton">Back</button>
+    <h1>Book Collection Manager</h1>
+    <h2>Add a Book</h2>
+    <form id="addBookForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+        <input type="submit" value="Add Book">
+    </form>
+    <h2>Delete a Book</h2>
+    <form id="deleteBookForm">
+        <label for="bookId">Book ID:</label>
+        <input type="number" id="bookId" name="bookId" required>
+        <input type="submit" value="Delete Book">
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+             $('#backButton').click(function () {
+                window.location.href = '../../exercises.html'; // Redirect to exercise.html
+            });
+            $('#addBookForm').on('submit', function (e) {
+                e.preventDefault();
+                var title = $('#title').val();
+                var author = $('#author').val();
+                $.ajax({
+                    url: '/books',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ title: title, author: author }),
+                    success: function (response) {
+                        alert(response);
+                        $('#addBookForm').trigger('reset');
+                    }
+                });
+            });
+            $('#deleteBookForm').on('submit', function (e) {
+                e.preventDefault();
+                var bookId = $('#bookId').val();
+                $.ajax({
+                    url: '/books/' + bookId,
+                    method: 'DELETE',
+                    success: function (response) {
+                        alert(response);
+                        $('#deleteBookForm').trigger('reset');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
