@@ -134,33 +134,6 @@ Movie Nights: Organize movie nights where students can gather to watch popular f
 
 
 
----------------
-
-
-
- 
-
-
-
-
-personally , i found a website (https://sharpen.design) that gives me random challenges to work on and i used it to challenge myself in the ui/ux part you can find the document here 
-	-----------
-this is an example of how i showed learning outcome ....
-learning outcome 1: logo, research,prototypes
-outcome 2 : git /documentation , comment our code structure 
-outcome 3: feedback you got , iterations
-outcome 4: reflection/research methods 
-öoutcome 5: show what you do in free time : research , tutorials, etc
-show how you asked for feedback , how you worked on research etc 
-show what you did exactly on everything group related 
-
-show everything you created for the group on your portfolio 
-create transitions for each page on your portfolio 
-project page
-exercises page
-personal project page
-passiob project 
-
 
 
 feedback on portifolio : good representation of the learning outcomes ,b
@@ -168,10 +141,7 @@ ut maybe make it more visual
 
 -----------------
 ADD TO PORTFOLIO:
--front end assignment
--react js , firebase stuff (add the code and the comments to the readme file )
 
--The stuff you did with papers (lotus stuff)
 if possible the blender exercises
 
 -improve design of website 
@@ -181,7 +151,7 @@ if possible the blender exercises
 ----------------------
 
 have a little bit more structure
--- put the feedback and the improvements as well as the poeple that gave you the feedback and their reactions after the feedback 
+-- restructure the feedback and the improvements as well as the poeple that gave you the feedback and their reactions after the feedback on portfolio
 put how what you did affected your future and what choices you make and stuff
 dont use blue and purple for your links 
 use more images ..............
@@ -190,5 +160,33 @@ make more pages that align with the learning outcomes
 
 
 work on prototype
-do some blender  exercises and watch tutorial
-do phototshop tutorials 
+do some blender   tutorial
+do phototshop tutorials
+ add daily ui to portfolio
+--------------------------------------------
+
+
+chatgpt prompt guideline 
+
+task
+context 
+example / examplar
+persona
+format
+tone 
+
+
+
+I didn't like the way we worked as a group because we had a lot of problems with attendance 
+
+---
+I was struggling with self reflection in this semester aa it was evident in my first two grades 
+
+
+My ability to use ai to create and generate things that i wanted accurately was lacking and I felt it was a necessary thing to have 
+-make your home page responsive 
+
+
+
+
+- The first main thing i got after the user testing was the development of the plan page for the nutrition plan and i started off by 
