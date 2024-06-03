@@ -184,11 +184,19 @@ change the reflections,,
 I was struggling with self reflection in this semester aa it was evident in my first two grades 
 
 
-
--make your home page responsive 
+passion project 
+daily ui
 
 let  figma validate the reflections  
 
 add some of the workshops you got to your portfolio 
 - The first main thing i got after the user testing was the development of the plan page for the nutrition plan and i started off by 
 
+feedback from amer on portfolio  ----:
+
+
+In your presentation try to arrange the content by learning outcomes so that there'll be a different view to your portfolio
+
+Also enable your scrollbar 
+
+and make use of the learning outcome text under the icons 

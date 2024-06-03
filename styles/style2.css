@@ -30,13 +30,12 @@
     ); /* At 100% of the animation duration, sets the rotation along the Y-axis to 360 degrees */
   }
 }
-
 .rotated-text {
   width: 149px; /* Sets width of rotated text */
   transform: rotate(-10deg); /* Rotates the text */
   display: inline-block; /* Makes the text display inline */
   position: absolute; /* Sets position to absolute */
-  right: 0; /* Positions the text to the right */
+  right: 10px; /* Positions the text with a slight offset from the right */
   top: 45%; /* Positions the text vertically */
 }
 

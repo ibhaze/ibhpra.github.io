@@ -5,37 +5,24 @@
   }
 
   .outcome-container {
-    position: relative;
-    display: inline-block;
-    margin-right: 100px;
-    /* Adjust the right margin as needed */
-    margin-top: 10px;
-  }
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    margin-right: 50px; /* Adjust the right margin as needed */
+    margin-top: 15px;
+}
 
-  .outcome-icon {
+.outcome-icon {
     width: 50px;
+}
 
-  }
+.outcome-container p {
+    margin-top: 10px; /* Adjust the spacing between icon and text */
+    text-align: center; /* Center the text */
+}
 
-  .overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Center the overlay */
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 14px;
-    /* Adjust the font size */
-    padding: 5px 8px;
-    /* Add padding */
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
+ 
 
-  .outcome-container:hover .overlay {
-    opacity: 1;
-  }
 
   /* Styling for the body */
   body {
@@ -49,13 +36,28 @@
     overflow-y: scroll;
     /* Ensures vertical scrollbar is always visible */
     scroll-behavior: smooth;
-    scrollbar-width: none;
-  }
 
-  /* Hides the scrollbar for WebKit browsers (Chrome, Safari, etc.) */
-  ::-webkit-scrollbar {
-    display: none;
   }
+/* Custom scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Track (the area behind the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #090909; /* Background color of the track */
+}
+
+/* Handle (the draggable scrolling mechanism) */
+::-webkit-scrollbar-thumb {
+  background: #666; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Color of the scrollbar handle on hover */
+}
 
 
   /* Styling for the logo */
