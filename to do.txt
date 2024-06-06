@@ -192,6 +192,8 @@ let  figma validate the reflections
 add some of the workshops you got to your portfolio 
 - The first main thing i got after the user testing was the development of the plan page for the nutrition plan and i started off by 
 
+add the actual tutorial exercises on blender 
+
 feedback from amer on portfolio  ----:
 
 
@@ -200,3 +202,14 @@ In your presentation try to arrange the content by learning outcomes so that the
 Also enable your scrollbar 
 
 and make use of the learning outcome text under the icons 
+
+
+add the feedback from amer to your portfolio
+
+
+
+-----------------------
+the feedback i got from penny on the advice report:
+
+add some kind of introduction to the project 
+and add more to the methodology section 
