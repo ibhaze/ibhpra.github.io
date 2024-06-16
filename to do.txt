@@ -193,23 +193,50 @@ add some of the workshops you got to your portfolio
 - The first main thing i got after the user testing was the development of the plan page for the nutrition plan and i started off by 
 
 add the actual tutorial exercises on blender 
-
+photoshop tutorial .
 feedback from amer on portfolio  ----:
 
 
 In your presentation try to arrange the content by learning outcomes so that there'll be a different view to your portfolio
 
-Also enable your scrollbar 
-
-and make use of the learning outcome text under the icons 
-
-
-add the feedback from amer to your portfolio
+   
+ -----------
+in my portfolio abstract I give an overview of some of the personal and group projects i took on 
+I also added my readme file that contained the most important commented codes 
 
 
+by learning outcomes 
 
------------------------
-the feedback i got from penny on the advice report:
+LO1:
+-the first main project was a personal project to challenge myself so i created my logo using adobe illustrator ,and after a couple of iterations and feedback sessions this was the end product ...
 
-add some kind of introduction to the project 
-and add more to the methodology section 
+-the next project was the prototype for my website and as seen in my portfolio I created a mid fidelity prototype 
+- after the photoshop tutorial , i worked on getting familiar with the environment by creating a solution to a project created by the creators
+- I also display LO1 in the intro week business card exercise by creating my personal business card for my identity
+-across the group project i also displayed LO1 from creating , low , mid fidelity prototypes as well as multiple design exercises in between
+
+also through other class exercises like the nodejs and the branding exercises 
+
+--------------------------
+LO2:
+
+For learning outcome 2 , I displayed my proficieny by commenting my code and making use of gitlab and github extensively throughout my personal and group project 
+
+
+---------------------------------------------
+LO3:
+ITERATIONS were shown a lot throughout my porfolio
+ ...My portfolio itself being the most obvious , as I made improvements based on the feedback I got ...I also asked for feedback on my porftolio from sem 2 teachers and amer mostly 
+-In the creation of my personal logo I iterated several times as I aksed other students for feedback ....
+-ALso throughout our project I basically took up the responsibility of asking for feedback 
+
+from our initial branding design choices to the research questions I created , i WAS ASKing for feedback
+
+----------------------------------------
+
+LO4
+I displayed this learning outcome by actively utilising the double diamond model during our project , I also created an advice report as well as the pov hmw for the project although what was missing was the ethical cnsiderations for the project as well....The research fo my passion project is also part of this learning outcome 
+
+-------------
+LO5 :
+multiple tutorials taken from blender , to figma , to photoshop all were aligned with what i wanted for my future of beign a ux designer ,...before taking these tutorials ..I took a look at some of the requirements for jobs in my field and they all needed someone with experience either in figma or adobe xd hence the figma tutorial , sketch , html css...I also took on some extra workshops including sem 2 and class purple workshops, the progressive web app and three js one 
