@@ -205,38 +205,12 @@ in my portfolio abstract I give an overview of some of the personal and group pr
 I also added my readme file that contained the most important commented codes 
 
 
-by learning outcomes 
+make it more visual and add screenshots from learning outcome 1 
 
-LO1:
--the first main project was a personal project to challenge myself so i created my logo using adobe illustrator ,and after a couple of iterations and feedback sessions this was the end product ...
+from learninig outcome 2 , make your readme more readable and only show the things that can be improved and reused not your whole code 
 
--the next project was the prototype for my website and as seen in my portfolio I created a mid fidelity prototype 
-- after the photoshop tutorial , i worked on getting familiar with the environment by creating a solution to a project created by the creators
-- I also display LO1 in the intro week business card exercise by creating my personal business card for my identity
--across the group project i also displayed LO1 from creating , low , mid fidelity prototypes as well as multiple design exercises in between
+from learning outcome 3 , show user testing to display the cause for the iteration 
+from learning outcome 4 , show your project management skills and how you coordinated the things like screenshots of whatsapp messages and discords and trello boards etc 
+from learning outcome 5 , show the risks that come with your area and job 
 
-also through other class exercises like the nodejs and the branding exercises 
-
---------------------------
-LO2:
-
-For learning outcome 2 , I displayed my proficieny by commenting my code and making use of gitlab and github extensively throughout my personal and group project 
-
-
----------------------------------------------
-LO3:
-ITERATIONS were shown a lot throughout my porfolio
- ...My portfolio itself being the most obvious , as I made improvements based on the feedback I got ...I also asked for feedback on my porftolio from sem 2 teachers and amer mostly 
--In the creation of my personal logo I iterated several times as I aksed other students for feedback ....
--ALso throughout our project I basically took up the responsibility of asking for feedback 
-
-from our initial branding design choices to the research questions I created , i WAS ASKing for feedback
-
-----------------------------------------
-
-LO4
-I displayed this learning outcome by actively utilising the double diamond model during our project , I also created an advice report as well as the pov hmw for the project although what was missing was the ethical cnsiderations for the project as well....The research fo my passion project is also part of this learning outcome 
-
--------------
-LO5 :
-multiple tutorials taken from blender , to figma , to photoshop all were aligned with what i wanted for my future of beign a ux designer ,...before taking these tutorials ..I took a look at some of the requirements for jobs in my field and they all needed someone with experience either in figma or adobe xd hence the figma tutorial , sketch , html css...I also took on some extra workshops including sem 2 and class purple workshops, the progressive web app and three js one 
+L1: Conceptualize, design, and develop interactive Proficient - You have done very nice works this semester and I recommend you to find more ways to challenge yourself on the higher level. You can for example follow some online tutorials about UCD. L2: Transferable production Proficient - You have developed nice codes. They are not always very complex, but you show very clearly how you have learned and challenged yourself. L3: Creative iterations Proficient - You seek feedback and apply it in your designs and codings. I recommend to focus more on user part of iterative approach. L4: Professional standards Proficient - You have explored many different tools and software, and you hold very professional stance at school and in your work. Show us more about your project management skills. L5: Personal leadership Proficient - You outline your future plans to some extent but try to be more specific about them.
